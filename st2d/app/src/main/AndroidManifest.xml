@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.st2d.app" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/st2d"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.st2d.app.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.st2d.app.loggin"
+            android:label="@string/title_activity_loggin" >
+        </activity>
+        <activity
+            android:name="com.example.st2d.app.Eleccion"
+            android:label="@string/title_activity_eleccion" >
+        </activity>
+        <activity
+            android:name="com.example.st2d.app.mapa"
+            android:label="@string/title_activity_mapa" >
+        </activity>
+        <activity
+            android:name="com.example.st2d.app.inicioSecion"
+            android:label="@string/title_activity_inicio_secion" >
+        </activity>
+    </application>
+
+</manifest>
